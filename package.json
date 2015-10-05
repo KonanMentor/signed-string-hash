@@ -1,0 +1,26 @@
+{
+  "name": "signed-string-hash",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "description": "Computes signed 32 bit hash of a string",
+  "scripts": {
+    "compile": "babel src/ -d lib/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/konanmentor/signed-string-hash.git"
+  },
+  "keywords": [
+    "hash"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/konanmentor/signed-string-hash/issues"
+  },
+  "homepage": "https://github.com/konanmentor/signed-string-hash#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel": "^5.8.23"
+  }
+}
